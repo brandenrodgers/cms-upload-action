@@ -13,5 +13,5 @@ jobs:
         with:
           src_dir: templates
           dest_dir: cms-upload-action-templates
-          portal_id: ${{ secrets.HUBSPORT_PORTAL_ID }}
+          portal_id: ${{ secrets.HUBSPOT_PORTAL_ID }}
           personal_access_key: ${{ secrets.HUBSPOT_PERSONAL_ACCESS_KEY }}
